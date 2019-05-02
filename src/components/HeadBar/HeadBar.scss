@@ -1,0 +1,109 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    #social-links {
+        background-color: rgba(255, 255, 255, 0.836);
+        display: flex;
+
+    }
+
+    .navbar {
+        background-color: black;
+        color: white;
+        width: 100%;
+        border-bottom: 1px solid white;
+        top: 5%;
+
+        #brand-logo {
+            margin-left: 0px;
+            position: absolute;
+            width: 180px;
+            left: 0;
+            z-index: 10;
+            cursor: pointer;
+
+            @media screen and (max-width: 600px) {}
+        }
+
+        #navbar-link {
+            position: relative;
+            padding-left: 200px;
+
+        }
+
+        a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 18px 16px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            cursor: pointer;
+
+            @media screen and (max-width: 600px) {
+                display: none;
+            }
+
+            &#toggle-icon {
+                display: none;
+
+                @media screen and (max-width: 600px) {
+                    float: right;
+                    display: block;
+                }
+
+            }
+
+
+            &.active {
+                background-color: rgba(226, 222, 222, 0.493);
+
+            }
+
+            &:hover {
+                background-color: rgba(226, 222, 222, 0.493);
+            }
+
+        }
+
+
+        &.sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+
+        &.responsive {
+            @media screen and (max-width: 600px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #navbar-link {
+                padding-left: 0px;
+                padding-top: 58px;
+
+            }
+
+            a {
+                @media screen and (max-width: 600px) {
+                    float: none;
+                    display: block;
+                }
+
+                &#toggle-icon {
+                    @media screen and (max-width: 600px) {
+                        position: absolute;
+                        right: 0;
+                    }
+                }
+            }
+
+        }
+
+
+
+    }
+}

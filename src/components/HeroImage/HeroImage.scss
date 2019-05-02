@@ -1,0 +1,25 @@
+.hero-image {
+    height: 100%;
+    background-image: url("./../../assets/image/hero_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    div {
+
+        &.logo {
+            height: 50%;
+            width: auto;
+            text-align: center;
+
+            img {
+                width: auto;
+                height: 100%;
+            }
+        }
+    }
+}

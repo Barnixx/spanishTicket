@@ -1,0 +1,65 @@
+.navbar {
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 100%; }
+
+.navbar #brand-logo {
+  margin-left: 0px;
+  position: absolute;
+  width: 100p;
+  left: 0;
+  top: 0; }
+
+.navbar #navbar-link {
+  position: relative;
+  padding-left: 70px; }
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer; }
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+    display: none; } }
+
+.navbar a#toggle-icon {
+  display: none; }
+
+@media screen and (max-width: 600px) {
+  .navbar a#toggle-icon {
+    float: right;
+    display: block; } }
+
+.navbar a.active {
+  background-color: rgba(226, 222, 222, 0.493); }
+
+.navbar a:hover {
+  background-color: rgba(226, 222, 222, 0.493); }
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative; } }
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left; } }
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive a#toggle-icon {
+    position: absolute;
+    right: 0;
+    top: 0; } }
