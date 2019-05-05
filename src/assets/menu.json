@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Pinchos",
+        "subItem": [
+            {
+                "name": "Z Wołowiną",
+                "weigth": 300,
+                "price": 29.99
+            },
+            {
+                "name": "Z Wołowiną",
+                "weigth": 300,
+                "price": 29.99
+            }
+        ]
+    },
+    {
+        "name": "Fatchita",
+        "subItem": [
+            {
+                "name": "Z Lupa",
+                "weigth": 300,
+                "price": 29.99
+            },
+            {
+                "name": "Z Wołowiną",
+                "weigth": 300,
+                "price": 29.99
+            }
+        ]
+    },
+    {
+        "name": "Fatchita",
+        "subItem": [
+            {
+                "name": "Z Lupa",
+                "weigth": 300,
+                "price": 29.99
+            },
+            {
+                "name": "Z Wołowiną",
+                "weigth": 300,
+                "price": 29.99
+            }
+        ]
+    },
+    {
+        "name": "Fatchita",
+        "subItem": [
+            {
+                "name": "Z Lupa",
+                "weigth": 300,
+                "price": 29.99
+            },
+            {
+                "name": "Z Wołowiną",
+                "weigth": 300,
+                "price": 29.99
+            }
+        ]
+    }
+]

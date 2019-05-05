@@ -1,18 +1,25 @@
 .hero-image {
     height: 100%;
-    background-image: url("./../../assets/image/hero_image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../../../assets/image/hero_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: row;
     align-content: center;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    overflow: hidden;
+    color: white;
+
+  
+    p{
+        padding: 30vh 5vw 10vh 5vw;
+
+    }
     div {
 
+       
         &.logo {
-            height: 50%;
+            height: 30%;
             width: auto;
             text-align: center;
 

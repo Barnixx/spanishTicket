@@ -6,12 +6,14 @@ import * as serviceWorker from './serviceWorker';
 import { HeadBar } from './components/HeadBar/HeadBar';
 import { HomePage } from './components/HomePage/HomePage';
 import { About } from './components/About/About';
+import MenuPage from './components/MenuPage/MenuPage';
 
 const routing = (
 
   <div>
     <HeadBar />
       <HomePage />
+      <MenuPage />
       <About />
 
   </div>
