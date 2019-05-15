@@ -1,6 +1,6 @@
 import React from "react";
 import './HeroImage.scss';
-import logo from './../../../assets/image/spanish_ticket_black.png';
+// import logo from './../../../assets/image/spanish_ticket_black.png';
 
 export class HeroImage extends React.Component {
     public render(){

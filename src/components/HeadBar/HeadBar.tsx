@@ -1,7 +1,7 @@
 import './HeadBar.scss';
 import '@fortawesome/fontawesome-free/css/all.css';
 
-import React, { Props } from 'react';
+import React from 'react';
 import logo from './../../assets/image/spanish_ticket_black.png';
 import { Link, animateScroll as scroll, Events } from "react-scroll";
 
@@ -17,6 +17,7 @@ export class HeadBar extends React.Component<any, HeadBarState> {
             navbarOpen: false
         }
     }
+    
     private stickyNavbar(): void {
         if (window.pageYOffset > this.navbar.offsetTop) {
 
@@ -40,7 +41,6 @@ export class HeadBar extends React.Component<any, HeadBarState> {
 
         }
     }
-    
 
     closeNavbar(){
         this.navbar.classList.remove('responsive');

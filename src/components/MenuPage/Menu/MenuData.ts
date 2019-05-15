@@ -1,5 +1,6 @@
 export interface MenuData {
     name: string;
+    img: string;
     subItem: Array<SubMenuData>;
 }
 export interface SubMenuData {

@@ -1,60 +1,61 @@
 [
     {
         "name": "Pinchos",
+        "img": "pinchos.jpg",
         "subItem": [
             {
                 "name": "Z Wołowiną",
-                "weigth": 300,
+                "weight": 300,
                 "price": 29.99
             },
             {
                 "name": "Z Wołowiną",
-                "weigth": 300,
+                "weight": 300,
                 "price": 29.99
             }
         ]
     },
     {
-        "name": "Fatchita",
+        "name": "Pinchos",
         "subItem": [
             {
                 "name": "Z Lupa",
-                "weigth": 300,
+                "weight": 300,
                 "price": 29.99
             },
             {
                 "name": "Z Wołowiną",
-                "weigth": 300,
+                "weight": 300,
                 "price": 29.99
             }
         ]
     },
     {
-        "name": "Fatchita",
+        "name": "Pinchos",
         "subItem": [
             {
                 "name": "Z Lupa",
-                "weigth": 300,
+                "weight": 300,
                 "price": 29.99
             },
             {
                 "name": "Z Wołowiną",
-                "weigth": 300,
+                "weight": 300,
                 "price": 29.99
             }
         ]
     },
     {
-        "name": "Fatchita",
+        "name": "Pinchos",
         "subItem": [
             {
                 "name": "Z Lupa",
-                "weigth": 300,
+                "weight": 300,
                 "price": 29.99
             },
             {
                 "name": "Z Wołowiną",
-                "weigth": 300,
+                "weight": 300,
                 "price": 29.99
             }
         ]
