@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/spanishTicket/static/css/main.3c84c83d.chunk.css",
+    "main.js": "/spanishTicket/static/js/main.898e020a.chunk.js",
+    "main.js.map": "/spanishTicket/static/js/main.898e020a.chunk.js.map",
+    "runtime~main.js": "/spanishTicket/static/js/runtime~main.999979d0.js",
+    "runtime~main.js.map": "/spanishTicket/static/js/runtime~main.999979d0.js.map",
+    "static/css/2.651fcabf.chunk.css": "/spanishTicket/static/css/2.651fcabf.chunk.css",
+    "static/js/2.586d348e.chunk.js": "/spanishTicket/static/js/2.586d348e.chunk.js",
+    "static/js/2.586d348e.chunk.js.map": "/spanishTicket/static/js/2.586d348e.chunk.js.map",
+    "index.html": "/spanishTicket/index.html",
+    "precache-manifest.afc516a62a4537350167e8e2a5ff4637.js": "/spanishTicket/precache-manifest.afc516a62a4537350167e8e2a5ff4637.js",
+    "service-worker.js": "/spanishTicket/service-worker.js",
+    "static/css/2.651fcabf.chunk.css.map": "/spanishTicket/static/css/2.651fcabf.chunk.css.map",
+    "static/css/main.3c84c83d.chunk.css.map": "/spanishTicket/static/css/main.3c84c83d.chunk.css.map",
+    "static/media/all.css": "/spanishTicket/static/media/fa-solid-900.ff8d9f8a.ttf",
+    "static/media/HeroImage.scss": "/spanishTicket/static/media/hero_image.f2283dc4.jpg",
+    "static/media/pinchos.jpg": "/spanishTicket/static/media/pinchos.7f191ce3.jpg",
+    "static/media/spanish_ticket_black.png": "/spanishTicket/static/media/spanish_ticket_black.08ba1cd0.png"
+  }
+}
