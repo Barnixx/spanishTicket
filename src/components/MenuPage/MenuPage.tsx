@@ -1,6 +1,6 @@
 import './MenuPage.scss';
 import React from "react";
-import { Menu } from './Menu/Menu';
+import { Menu } from './MenuNew/Menu';
 
 
 

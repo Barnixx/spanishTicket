@@ -1,14 +1,9 @@
 import React from "react";
-import './About.scss';
 
-export class About extends React.Component {
-    render() {
-        return(
-            <div id="about-page" className="page">
-                <h1>O Nas</h1>
-                <p>
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sem lacus. Nunc congue ultrices quam, id cursus magna semper non. Cras pharetra cursus nisl id consequat. Nulla eget semper elit. Duis ut blandit est, quis porttitor ante. Donec eu ligula et leo aliquam pellentesque. In ornare ornare neque. Praesent malesuada porttitor eros vel lacinia. Mauris sodales tellus at diam lacinia sagittis. Fusce venenatis massa id tellus tincidunt, vel egestas erat viverra. Nulla vitae varius nibh, pellentesque dapibus eros. Ut non elit in nisl faucibus consequat non sit amet ligula. Cras fringilla, ligula sit amet pellentesque porta, nunc justo maximus erat, vel dignissim velit urna sed libero. Nam nibh elit, sagittis ac erat et, finibus sodales risus. Cras maximus, mi et faucibus sodales, libero lectus bibendum est, ac lacinia tellus ipsum vitae lorem. Curabitur et nunc erat.
+export class MenuItem extends React.Component {
+    render(){
+        return(<div>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sem lacus. Nunc congue ultrices quam, id cursus magna semper non. Cras pharetra cursus nisl id consequat. Nulla eget semper elit. Duis ut blandit est, quis porttitor ante. Donec eu ligula et leo aliquam pellentesque. In ornare ornare neque. Praesent malesuada porttitor eros vel lacinia. Mauris sodales tellus at diam lacinia sagittis. Fusce venenatis massa id tellus tincidunt, vel egestas erat viverra. Nulla vitae varius nibh, pellentesque dapibus eros. Ut non elit in nisl faucibus consequat non sit amet ligula. Cras fringilla, ligula sit amet pellentesque porta, nunc justo maximus erat, vel dignissim velit urna sed libero. Nam nibh elit, sagittis ac erat et, finibus sodales risus. Cras maximus, mi et faucibus sodales, libero lectus bibendum est, ac lacinia tellus ipsum vitae lorem. Curabitur et nunc erat.
                     
                     Phasellus lorem ipsum, cursus vel diam sed, cursus euismod justo. Quisque accumsan accumsan sem, viverra luctus magna consequat id. Donec aliquet sodales lacus, et molestie leo rhoncus dictum. Vestibulum ut velit eget massa scelerisque bibendum sed sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque erat dolor, maximus ac tristique eget, lacinia et urna. Mauris feugiat sodales libero, quis pulvinar est viverra eget. Nullam quis fermentum massa, nec varius justo. Duis gravida risus vitae quam cursus, eu vulputate augue volutpat. Aenean blandit finibus viverra. Maecenas rhoncus ex quis risus consectetur, at rhoncus est viverra. Duis sit amet ante dui.
                     
@@ -30,9 +25,7 @@ export class About extends React.Component {
                     
                     Sed blandit imperdiet bibendum. Nullam ac posuere odio. Sed vel odio aliquam, interdum felis ut, fermentum nunc. Aliquam lacus lacus, bibendum in ultricies vitae, ullamcorper in turpis. Curabitur rutrum dui libero, non vulputate libero egestas nec. Mauris finibus efficitur tellus, non iaculis urna scelerisque at. Sed enim eros, ultricies non diam ac, molestie aliquet augue. Nullam vitae elit id lectus gravida feugiat elementum nec justo. Maecenas dictum, odio finibus rhoncus euismod, quam ligula vestibulum libero, sit amet posuere felis nibh sit amet mi. Nullam vel porttitor leo, at mattis arcu. In eget risus dictum, sagittis magna eu, mollis ipsum. Donec sed velit nec lectus malesuada pharetra.
                     
-                    Phasellus ultrices id lectus sit amet porta. Fusce vel sodales massa, et sollicitudin massa.
-                    </p>
-            </div>
-        )
+                    Phasellus ultrices id lectus sit amet porta. Fusce vel sodales massa, et sollicitudin massa.</p>
+        </div>)
     }
 }
