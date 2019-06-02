@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/spanishTicket/precache-manifest.afc516a62a4537350167e8e2a5ff4637.js"
+  "/spanishTicket/precache-manifest.789d965d40f7e73c4735df95b9575f4d.js"
 );
 
 self.addEventListener('message', (event) => {

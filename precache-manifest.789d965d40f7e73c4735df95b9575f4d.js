@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25b2dcdd2a54ec3c23c526a1e9f7a7ea",
+    "revision": "c5e98d57a313709b3ce11846489b1b6e",
     "url": "/spanishTicket/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spanishTicket/static/css/2.651fcabf.chunk.css"
   },
   {
-    "revision": "014920b303b883241f26",
-    "url": "/spanishTicket/static/css/main.3c84c83d.chunk.css"
+    "revision": "78cb4518014223541003",
+    "url": "/spanishTicket/static/css/main.784e57e7.chunk.css"
   },
   {
     "revision": "f90863bd1592bf18bf7e",
     "url": "/spanishTicket/static/js/2.586d348e.chunk.js"
   },
   {
-    "revision": "014920b303b883241f26",
-    "url": "/spanishTicket/static/js/main.898e020a.chunk.js"
+    "revision": "78cb4518014223541003",
+    "url": "/spanishTicket/static/js/main.cd019635.chunk.js"
   },
   {
     "revision": "656b6c6de1e51c186c74",
